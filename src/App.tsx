@@ -1,10 +1,13 @@
-import './App.css';
-import React from 'react';
+import "./App.css";
+import Footer from "./Footer";
+import NavBar from "./NavBar";
 
 export default function App() {
   return (
     <div>
-      <h1 className='text-5xl text-center'>Hello, World! {React.version}</h1>
+      <NavBar />
+
+      <Footer />
     </div>
   );
 }
