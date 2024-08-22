@@ -1,8 +1,10 @@
-export default function NavBar(): any {
+import { ReactElement } from "react";
+
+export default function NavBar(): ReactElement {
   return (
     <nav>
-      <ul className="flex gap-x-40 justify-center flex-wrap p-4">
-        <li>
+      <ul className="flex gap-x-32 justify-center flex-wrap p-4 bg-blue-500 text-white">
+        <li className="">
           <a href="#">PC Components</a>
         </li>
         <li>

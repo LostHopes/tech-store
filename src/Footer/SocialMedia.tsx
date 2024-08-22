@@ -1,4 +1,6 @@
-export default function SocialMedia(): any {
+import { ReactElement } from "react";
+
+export default function SocialMedia(): ReactElement {
   return (
     <ul className="flex-col mx-72 my-8">
       <strong>Social media</strong>
