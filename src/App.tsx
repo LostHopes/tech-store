@@ -1,14 +1,18 @@
-import { ReactElement } from "react";
+import { Component } from "react";
 import "./App.css";
 import Footer from "./Footer";
 import NavBar from "./NavBar";
 
-export default function App(): ReactElement {
-  return (
-    <>
-      <NavBar />
-
-      <Footer />
-    </>
-  );
+class App extends Component {
+  render() {
+    return (
+      <>
+        <NavBar />
+  
+        <Footer />
+      </>
+    );
+  }
 }
+
+export default App;
